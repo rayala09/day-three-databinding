@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  heading = 'Person Details';
+
+  person: any = {
+    name: {
+      firstName: 'Ray',
+      lastName: 'Ayala'
+    },
+    gender: 'M',
+    city: 'Fresno'
+  };
 }
